@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = AppfiguresAccessor::VERSION
   spec.authors       = ["Shinsuke KUROKI"]
   spec.email         = ["s-kuroki@aiming-inc.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Accesses appfigures.com through API}
+  spec.description   = %q{see http://docs.appfigures.com/}
+  spec.homepage      = "https://github.com/skuroki/appfigures_accessor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
