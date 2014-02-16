@@ -1,6 +1,9 @@
 # AppfiguresAccessor
 
-TODO: Write a gem description
+Accesses appfigures.com through API(v2.0)
+see also http://docs.appfigures.com/
+
+Most accessors are not implemented yet. Please fork and add your needs ;)
 
 ## Installation
 
@@ -18,7 +21,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In advance, you need to register API Client on https://appfigures.com/developers/keys
+
+    > a = AppfiguresAccessor::Accessor.new('example@example', 'PASSWORD', 'CLIENT_KEY')
+    > a.sales
+    => {"downloads"=>0,
+    "updates"=>0,
+    "returns"=>0,
+    "net_downloads"=>0,
+    "promos"=>0,
+    "revenue"=>"0.0",
+    "edu_downloads"=>0,
+    "gifts"=>0,
+    "gift_redemptions"=>0}
 
 ## Contributing
 
